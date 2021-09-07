@@ -1,0 +1,195 @@
+
+body{
+    background-color: #e8bf55; 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fonte{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.centralizado{
+    text-align: center;
+}
+.justificado{
+    text-align: justify;
+}
+.coluna {   
+    float: left;
+    padding: 1%;
+    margin-left: 90px;
+    position: relative;
+}
+.dois {
+   width: 30%;
+}
+.tamanho{
+    width: 42%;
+}
+.cor{
+    color:#ffffff;
+}
+.fontedois{
+    font-family: 'Open Sans', sans-serif;
+}
+.colunavacina{
+    float: right;
+    padding: 1%;
+    margin-right: 70px;
+    margin-top: 30px;
+    position: relative;
+    width: 40%;
+}
+.esquerda{
+    text-align: left;
+}
+.coluna2 {
+    width: 50%;
+}
+.tamanho2{
+    width: 25%;
+    float: left;
+    padding-top: 8px;
+    margin-top: 8px;
+    margin-left: 150px
+}
+.texto{
+    font-family: 'Barlow', sans-serif; 
+    text-size-adjust: 1.5px;
+}
+.corzinha{
+    background-color: #ffffff;
+}
+.coluna3{
+    float: left;
+    padding: 1%;
+    margin-left: 10px;
+    position: relative;
+    width: 65%;
+}
+.coluna4{
+    float: right;
+    padding: 1%;
+    margin-right: 0%;
+    margin-top: -12px;
+    position: relative;
+    width: 30%;
+}
+.menu{
+    position: fixed;
+    z-index: 10;
+}
+.menu ul{
+    list-style: none;
+    padding:0;
+    background-color: #273464;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    color:#ffffff;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    
+}
+.menu ul li a:hover{
+    background-color: #d7d7d7;
+    opacity: 0.7;
+    transition: 2s;
+}
+.logo {
+    margin-right: -30px;
+    margin-top: -60px;
+    margin-bottom: 3px;
+    width: 300px;
+    height: 230px;
+    float: right;
+}
+.imagem{
+    float: right;
+    margin-right: 45px;
+    margin-top: -8.3px;
+    margin-bottom: 3px;
+    width: 5.5%;
+}
+.recuo { 
+    text-indent:2em 
+}
+////
+body{
+    background-color: #e8bf55; 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Início do carrossel */
+.corpo{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e8bf55; 
+}
+.slider {
+    position: relative;
+    width: 100%%;
+    overflow:hidden;
+}
+.caixa{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+.images {
+    display: flex;
+    width: 1450px;
+}
+.images img {
+    height: 600px;
+    width: 1450px;
+    transition: all 0.15s ease;
+}
+.images input {
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover {background: #fff;}
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+}
+#img3:checked ~ .m3 {
+    margin-left: -195%;
+}
+#img4:checked ~ .m4 {
+    margin-left: -302.5%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
+
